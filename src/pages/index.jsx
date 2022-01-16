@@ -18,7 +18,7 @@ const styles = {
   },
 }
 
-const IndexPage = ({ location }) => {
+function IndexPage({ location }) {
   return (
     <div className="page">
       <Helmet>
@@ -29,7 +29,7 @@ const IndexPage = ({ location }) => {
 
       <main>
         <section className="section-hero my-0 flex justify-center items-end">
-          <p className="text-white drop-shadow">We're getting married!</p>
+          <h1 className="text-white drop-shadow m-0">We're getting married!</h1>
         </section>
 
         <section className="section-names my-16">
@@ -54,14 +54,14 @@ const IndexPage = ({ location }) => {
           <hr className="hidden lg:block w-3/4 mx-auto" />
         </section>
 
-        <section className="section-lets-celebrate prose mx-auto">
+        <section className="section-lets-celebrate mx-auto">
           <h2 className="text-4xl" style={{letterSpacing: '1px'}}>
             Let's Celebrate
           </h2>
           <p className="my-8 text-base" style={{letterSpacing: '3px'}}>
             5.27.2022 - 5.31.2022
           </p>
-          <p className="my-2 max-w-prose mx-auto">
+          <p className="prose my-2 max-w-prose mx-auto">
             Join us for a weekend-long celebration with our closest family and friends. We planned a fun weekend of boating, bonding activities, and enjoying Wisconsin's northern woods. Oh yeah--and, of course, an intimate wedding ceremony.
           </p>
         </section>

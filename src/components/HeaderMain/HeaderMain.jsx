@@ -57,12 +57,7 @@ export default function HeaderMain({ location }) {
     <React.Fragment>
       <div className="sticky-sentinel" ref={intersectionRef} />
       <header
-        className={classNames(
-          'header-main shrink-0 fixed z-50 flex justify-center items-center drop-shadow',
-          {
-            'menu-only': menuOnly,
-          }
-        )}
+        className={classNames('header-main shrink-0 fixed z-50 flex justify-center items-center drop-shadow')}
         style={{height: headerHeight}}
       >
         <button
@@ -88,9 +83,17 @@ export default function HeaderMain({ location }) {
           Eagle River, WI
         </span>
 
-        <h1 className={classNames('text-2xl lg:text-4xl m-0 lg:mt-[-1rem]', { 'menu-only': menuOnly })}>
+        <Link
+          to="/"
+          className={classNames(
+            'names text-2xl lg:text-4xl m-0 lg:mt-[-1rem]',
+            {
+              'hidden': windowSize.width >= 1024 && menuOnly,
+            },
+          )}
+        >
           Heidi &amp; Brenton
-        </h1>
+        </Link>
 
         <nav
           className={classNames(
@@ -99,7 +102,7 @@ export default function HeaderMain({ location }) {
             'lg:z-0 lg:p-0 lg:bottom-1 lg:top-[unset]',
             {
               'is-open': isMenuOpen,
-              'menu-only': menuOnly,
+              'lg:bottom-[initial]': windowSize.width >= 1024 && menuOnly,
             },
           )}
         >

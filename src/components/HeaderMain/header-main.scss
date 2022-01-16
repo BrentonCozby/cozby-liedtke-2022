@@ -13,11 +13,11 @@
   margin-top: 1px;
   width: 100%;
 
-  h1 {
-    &.menu-only {
-      @media screen and (min-width: 1024px) {
-        display: none;
-      }
+  .names {
+    color: var(--font-color-main);
+
+    &:hover {
+      text-decoration: none;
     }
   }
 }
@@ -103,24 +103,9 @@
     visibility: visible;
   }
 
-  &.menu-only {
-    @media screen and (min-width: 1024px) {
-      bottom: initial;
-    }
-  }
-
   ul li a {
     color: var(--font-color-main);
     letter-spacing: 3px;
-
-    &:hover {
-      color: var(--font-color-main);
-      text-decoration: none;
-
-      @media (min-width: 1024px) {
-        color: var(--link-color-hover);
-      }
-    }
 
     &.is-active {
       @apply text-xl font-bold text-neutral-400;
