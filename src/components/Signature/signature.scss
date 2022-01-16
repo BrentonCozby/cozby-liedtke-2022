@@ -1,0 +1,13 @@
+.section-signature {
+  &::after {
+    background-image: url(../../images/leaves-bottom-center.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: " ";
+    display: table;
+    margin: auto;
+    width: 100%;
+    height: 7rem;
+  }
+}

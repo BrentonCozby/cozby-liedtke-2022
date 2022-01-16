@@ -1,0 +1,133 @@
+.sticky-sentinel {
+  position: absolute;
+  top: 0;
+  height: 20px;
+  width: 100%;
+  visibility: hidden;
+}
+
+.header-main {
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--font-color-main);
+  top: -1px;
+  margin-top: 1px;
+  width: 100%;
+
+  h1 {
+    &.menu-only {
+      @media screen and (min-width: 1024px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.header-main__menu-button {
+  --menu-button-height: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  height: var(--menu-button-height);
+  padding: 0px;
+  position: absolute;
+  justify-content: space-between;
+  top: calc((var(--header-main-mobile-height) - var(--menu-button-height)) / 2);
+  left: calc((var(--header-main-mobile-height) - var(--menu-button-height)) / 2);
+  width: 36px;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+
+  .header-main__menu-button__bar {
+    background-color: var(--font-color-main);
+    border-radius: 5px;
+    content: '';
+    display: block;
+    height: 3px;
+    position: relative;
+    transform: rotate(0deg);
+    width: 100%;
+
+    @apply will-change-transform;
+    @apply duration-150;
+
+    &.bar-top {
+      left: 0; // for the animation
+      top: 0; // for the animation
+    }
+
+    &.bar-bottom {
+      top: 0; // for the animation
+      left: 0; // for the animation
+    }
+  }
+
+  &.is-open {
+    .header-main__menu-button__bar.bar-top {
+      left: 3px;
+      top: -2px;
+      transform-origin: 0% 0%;
+      transform: rotate(45deg);
+    }
+
+    .header-main__menu-button__bar.bar-middle {
+      height: 0;
+      opacity: 0;
+    }
+
+    .header-main__menu-button__bar.bar-bottom {
+      left: -8px;
+      transform-origin: 100% 100%;
+      transform: rotate(-45deg);
+      top: -24px;
+    }
+  }
+}
+
+.header-main__menu {
+  background-color: var(--background-color);
+  height: 100vh;
+  visibility: hidden;
+
+  @media (min-width: 1024px) {
+    background-color: transparent;
+    height: initial;
+    visibility: visible;
+  }
+
+  &.is-open {
+    visibility: visible;
+  }
+
+  &.menu-only {
+    @media screen and (min-width: 1024px) {
+      bottom: initial;
+    }
+  }
+
+  ul li a {
+    color: var(--font-color-main);
+    letter-spacing: 3px;
+
+    &:hover {
+      color: var(--font-color-main);
+      text-decoration: none;
+
+      @media (min-width: 1024px) {
+        color: var(--link-color-hover);
+      }
+    }
+
+    &.is-active {
+      @apply text-xl font-bold text-neutral-400;
+
+      @media (min-width: 1024px) {
+        @apply text-xs;
+      }
+    }
+  }
+}

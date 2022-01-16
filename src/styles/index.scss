@@ -1,0 +1,127 @@
+@import "~@fontsource/cardo/scss/mixins";
+
+@include fontFace($weight: 400,
+  $fontDir: "~@fontsource/cardo/files",
+);
+
+@tailwind base;
+@import 'sanitize';
+@import 'global-vars';
+@import 'print';
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color-main);
+  font-family: var(--font-family-cardo);
+  min-height: 100vh;
+  width: 100%;
+}
+
+section {
+  @apply container mx-auto text-center my-20 px-4;
+}
+
+hr {
+  border-top-color: var(--font-color-main);
+  margin: 0 1rem;
+}
+
+a {
+  color: var(--link-color-hover);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.prose {
+  @apply text-lg;
+}
+
+.section-hero {
+  aspect-ratio: 4000 / 2683;
+  background-image:
+    linear-gradient(to top, rgba(0, 0, 0, .7) 0%, transparent 30%),
+    url(../images/cozby_2021-03-28_DSC00158.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  margin: 0;
+  max-width: initial;
+
+  @media screen and (min-width: 1024px) {
+    aspect-ratio: unset;
+    height: 80vh;
+  }
+
+  p {
+    font-size: 7vw;
+    padding-bottom: 2vw;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 5vw;
+    }
+  }
+}
+
+.section-names {
+  @media screen and (min-width: 1024px) {
+    background-image: url(../images/wreath.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.section-wedding-info {
+  &::before {
+    background-image: url(../images/leaves-to-the-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: " ";
+    display: table;
+    margin: auto;
+    width: 81%;
+    height: 100px;
+
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &::after {
+    background-image: url(../images/leaves-to-the-left.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: " ";
+    display: table;
+    margin: auto;
+    width: 81%;
+    height: 100px;
+
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+}
+
+.ring-image {
+  aspect-ratio: 4000 / 2683;
+  background-image: url(../images/cozby_2021-03-28_DSC00228.jpg);
+  background-position: center;
+  background-size: cover;
+
+  @media screen and (min-width: 1024px) {
+    aspect-ratio: unset;
+    height: 80vh;
+  }
+}
