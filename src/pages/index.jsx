@@ -67,7 +67,7 @@ function IndexPage({ location }) {
         </section>
 
         <Signature />
-        <div className="ring-image" />
+        <div className="footer-hero-image" />
       </main>
 
       <FooterMain />

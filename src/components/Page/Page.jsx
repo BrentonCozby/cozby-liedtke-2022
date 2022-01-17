@@ -13,6 +13,7 @@ export default function Page({
   location,
   className,
   title,
+  footerHeroImage = () => null,
 }) {
   return (
     <div className={classNames('page flex flex-col', className)}>
@@ -25,6 +26,7 @@ export default function Page({
       <main className="grow">
         {children}
         <Signature />
+        {footerHeroImage()}
       </main>
 
       <FooterMain />

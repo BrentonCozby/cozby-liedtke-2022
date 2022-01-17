@@ -1,0 +1,18 @@
+.page-accommodations {
+  section:first-of-type::after {
+    background-image: url(../../images/leaves-to-the-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: " ";
+    display: table;
+    margin: auto;
+    width: 81%;
+    height: 100px;
+  }
+
+  .footer-hero-image {
+    background-image: url(../../images/cape-town-park.jpg);
+    background-position: 50% 80%;
+  }
+}

@@ -8,10 +8,11 @@ export default function PageSchedule({ location }) {
       title="Schedule | Liedtke Cozby 2022"
       className="page-schedule"
       location={location}
+      footerHeroImage={() => <div className="footer-hero-image" />}
     >
       <section className="lg:mt-32">
         <h1 className="text-4xl lg:text-5xl my-8">Schedule</h1>
-        <p className="prose mx-auto mb-16">The events of the weekend. For the full schedule, <a href="https://docs.google.com/spreadsheets/d/1vpGumMfxQARb1mg4cozGiCvbwKp7GT4GVTFJL_PZti0" target="_blank" rel="noreferrer">click here</a>.</p>
+        <p className="prose mx-auto mb-16">This is going to be fun. For the full schedule, <a href="https://docs.google.com/spreadsheets/d/1vpGumMfxQARb1mg4cozGiCvbwKp7GT4GVTFJL_PZti0" target="_blank" rel="noreferrer">click here</a>.</p>
       </section>
 
       <section className="prose">
@@ -53,7 +54,8 @@ export default function PageSchedule({ location }) {
         </h2>
         <p>Memorial Day.</p>
         <p>After breakfast, we'll hang out around the estate. Possible activities include fishing, board games, pool/darts at the boathouse, and renting ATVs at a nearby ATV park.</p>
-        <p>For lunch, we can have a simple barbecue; dinner will also casual.</p>
+        <p>For lunch, we'll have a traditional Memorial Day barbecue.</p>
+        <span className="text-5xl">🇺🇸</span>
       </section>
 
       <hr className="w-3/4 mx-auto" />

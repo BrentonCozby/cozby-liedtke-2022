@@ -1,0 +1,27 @@
+.page-travel {
+  section:first-of-type::after {
+    background-image: url(../../images/leaves-to-the-right.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: " ";
+    display: table;
+    margin: auto;
+    width: 81%;
+    height: 100px;
+  }
+
+  .footer-hero-image {
+    background-image: url(../../images/vis-bay.jpg);
+    background-position: 50% 25%;
+  }
+}
+
+.map-iframe {
+  border: none;
+  width: 100%;
+  max-width: 700px;
+  height: 100vh;
+  max-height: 500px;
+  margin: auto;
+}
