@@ -62,7 +62,7 @@ function IndexPage({ location }) {
             5.27.2022 - 5.31.2022
           </p>
           <p className="prose my-2 max-w-prose mx-auto">
-            Join us for a weekend-long celebration with our closest family and friends. We planned a fun weekend of boating, bonding activities, and enjoying Wisconsin's northern woods. Oh yeah--and, of course, an intimate wedding ceremony.
+            Join us for a weekend-long celebration with our closest family and friends. We planned a fun weekend of boating, bonding activities, and enjoying Wisconsin's Northwoods. Oh yeah--and, of course, an intimate wedding ceremony.
           </p>
         </section>
 
