@@ -13,7 +13,7 @@ export default function PageAccommodations({ location }) {
     >
       <section className="lg:mt-32 prose">
         <h1 className="text-4xl lg:text-5xl mt-8 font-normal">Accommodations</h1>
-        <p className="mb-20">We've rented out <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.indianpointmanor.com%2F%3Ffbclid%3DIwAR1LYhd8HKVkWgEfVqezutBO05TkelTlpiMz2weNWU3Mk5qOlO68cKfDNqQ&h=AT3mWvbNLIRb5Ax70qLO21QSQanZ7ftqpetuJhJkohkqVrpfAoqYfa238yxNneM-OF-6zRpjyfpXRNibKoAXoOJuf71nJ5cLwCvrWNWYcXVLSN6f37t2vLcSVeLST23kLw1wlh3c" target="_blank" rel="noreferrer">Indian Point Manor</a> from May 27 to May 31, which can accommodate everyone.</p>
+        <p>We've rented out <a href="https://www.indianpointmanor.com/" target="_blank" rel="noreferrer">Indian Point Manor</a> from May 27 to May 31, which can accommodate everyone.</p>
       </section>
 
       <section className="prose">

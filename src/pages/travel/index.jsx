@@ -17,7 +17,7 @@ export default function PageTravel({ location }) {
 
       <section className="prose">
         <p>Rhinelander-Oneida County airport is the closest airport to Indian Point Manor at about a 45 minute drive. The airport is operated by Delta with service to Minneapolis. Pick up and drop off by someone from Heidi's family can be arranged from Rhinelander-Oneida airport.</p>
-        <p>Other airports in the region are listed below. If you plan on flying into one of these airports, we recommend carpooling with other guests.</p>
+        <p>Other airports in the region are listed below. If you plan on flying into one of these airports, we recommend renting a car and carpooling with other guests.</p>
       </section>
 
       <section>

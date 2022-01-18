@@ -1,6 +1,7 @@
 import React from 'react'
 import './faqs.scss'
 import Page from '@components/Page/Page'
+import { StaticImage } from 'gatsby-plugin-image'
 
 export default function PageFAQs({ location }) {
   return (
@@ -23,7 +24,7 @@ export default function PageFAQs({ location }) {
         <p>We built a dedicated <a href="/travel" target="_blank" rel="noreferrer">travel page</a> for this question.</p>
 
         <h3>How many people are attending?</h3>
-        <p>We expect 20 including Heidi and Brenton. Oh, and Dolly!</p>
+        <p>We expect 20 including Heidi and Brenton. Oh, and Dolly! 🐾</p>
 
         <h3>What will we be doing during the weekend?</h3>
         <p>In addition to our wedding on Sunday, we planned many fun activities including renting a pontoon boat. Our accommodation also has a basketball court, tennis court, game room, shuffleboard, board games, camp fire, and so much more. Please refer to the schedule page for more information.</p>
@@ -36,6 +37,10 @@ export default function PageFAQs({ location }) {
         <p>Eagle River offers many outdoor activities such as ATV/UTV rentals and trails. If enough people are interested, we can arrange to rent ATV/UTVs for Monday (Memorial day). The cost of the rentals vary around $75-150/person. This is completely optional and will only happen if enough people are interested.</p>
         <p>If you have any questions or concerns, please reach out to Brenton or Heidi as soon as possible.</p>
 
+        <h3>What kind of food and drinks will be served throughout the weekend?</h3>
+        <p>A variety! Most of the meals will be at the house, so please let us know if you have any allergies or dietary restrictions.</p>
+        <p>The wedding dinner will be a catered sit down meal. We will update the website with the menu options when it gets closer to the date.</p>
+
         <h3>I am not able to attend the full weekend, is that okay?</h3>
         <p>We hope that you are able to stay from Friday evening to Tuesday morning, but understand if you have a conflict. If you need to arrive late or leave early, please book your flight into Rhinelander-Oneida airport, otherwise you will need to arrange your own transportation to and from the airport.</p>
 
@@ -47,7 +52,8 @@ export default function PageFAQs({ location }) {
         <h2 className="text-stone-400">FAQS About the Ceremony</h2>
 
         <h3 style={{marginTop: '2rem'}}>What should I wear?</h3>
-        <p>Our wedding will be a semi-formal affair beginning in the early evening. If you would like to dress according to the theme, our color pallet is sage green, forest green, blush pink, gold, and black.</p>
+        <p>Our wedding will be a semi-formal affair beginning in the early evening. If you would like to dress according to the theme, our color palette is sage green, forest green, blush pink, gold, and black.</p>
+        <StaticImage src="../../images/color-palette.png" alt="Liedkte Cozby 2022 Color Palette" style={{transform: 'scaleX(-1)'}} />
         <p>We are planning to host the ceremony and dinner outdoors, so please dress appropriately for the weather. We will have patio heaters and a fire going during dinner. In case of rain or the cold, we will move the reception inside.</p>
 
         <h3>Can I bring a date?</h3>
@@ -55,10 +61,6 @@ export default function PageFAQs({ location }) {
 
         <h3>Will there be someone to do hair and makeup?</h3>
         <p>Yes! Heidi arranged for a professional stylist to come to the manor on the wedding day. Her prices vary on the service, but are about $55-90 for make up and $50-70 for hair. If you are interested in having your hair and/or makeup done professionally, please confirm with Heidi by February 4th.</p>
-
-        <h3>What kind of food and drinks will be served throughout the weekend?</h3>
-        <p>A variety! Most of the meals will be at the house, so please let us know if you have any allergies or dietary restrictions.</p>
-        <p>The wedding dinner will be a catered sit down meal. We will update the website with the menu options when it gets closer to the date.</p>
 
         <h3>Where are you registered?</h3>
         <p>We are not! Celebrating our love with all of you is the perfect gift. We recognize that attending a destination wedding in remote Northern Wisconsin may be a big commitment and are so appreciative of those able to join.</p>
