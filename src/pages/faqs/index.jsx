@@ -53,7 +53,12 @@ export default function PageFAQs({ location }) {
 
         <h3 style={{marginTop: '2rem'}}>What should I wear?</h3>
         <p>Our wedding will be a semi-formal affair beginning in the early evening. If you would like to dress according to the theme, our color palette is sage green, forest green, blush pink, gold, and black.</p>
-        <StaticImage src="../../images/color-palette.png" alt="Liedkte Cozby 2022 Color Palette" style={{transform: 'scaleX(-1)'}} />
+        <StaticImage
+          src="../../images/color-palette.png"
+          alt="Liedkte Cozby 2022 Color Palette"
+          className="rounded-md drop-shadow-lg"
+          style={{transform: 'scaleX(-1)'}}
+        />
         <p>We are planning to host the ceremony and dinner outdoors, so please dress appropriately for the weather. We will have patio heaters and a fire going during dinner. In case of rain or the cold, we will move the reception inside.</p>
 
         <h3>Can I bring a date?</h3>
