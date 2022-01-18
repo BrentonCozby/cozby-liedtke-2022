@@ -109,8 +109,8 @@ export default function HeaderMain({ location }) {
           <ul className="w-full divide-y divide-gray-400 lg:flex lg:justify-center lg:divide-none">
             <MenuItem to="/" partiallyActive={false}>Home</MenuItem>
             <MenuItem to="/schedule">Schedule</MenuItem>
-            <MenuItem to="/travel">Travel</MenuItem>
             <MenuItem to="/accommodations">Accommodations</MenuItem>
+            <MenuItem to="/travel">Travel</MenuItem>
             <MenuItem to="/faqs">FAQS</MenuItem>
           </ul>
         </nav>
