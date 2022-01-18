@@ -91,22 +91,14 @@ hr {
 .section-wedding-info {
   &::before {
     background-image: url(../images/leaves-to-the-right.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    content: " ";
-    display: table;
-    margin: auto;
-    width: 81%;
-    height: 100px;
-
-    @media screen and (min-width: 1024px) {
-      display: none;
-    }
   }
 
   &::after {
     background-image: url(../images/leaves-to-the-left.png);
+  }
+
+  &::before,
+  &::after {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

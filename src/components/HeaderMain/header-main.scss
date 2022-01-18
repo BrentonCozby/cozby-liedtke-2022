@@ -13,11 +13,57 @@
   margin-top: 1px;
   width: 100%;
 
+  &::after {
+    background-image: url(../../images/navbar-leaves.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: " ";
+    display: table;
+    margin: auto;
+    width: 3rem;
+    height: 2rem;
+    position: absolute;
+    top: .4rem;
+    right: .4rem;
+
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+
   .names {
     color: var(--font-color-main);
 
     &:hover {
       text-decoration: none;
+    }
+
+    &::before {
+      background-image: url(../../images/leaves-to-the-left.png);
+      left: -11rem;
+      top: 2.25rem;
+    }
+
+    &::after {
+      background-image: url(../../images/leaves-to-the-right.png);
+      right: -11rem;
+      bottom: 2.25rem;
+    }
+
+    &::before,
+    &::after {
+      @media screen and (min-width: 1024px) {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        content: " ";
+        display: table;
+        margin: auto;
+        width: 4rem;
+        height: 2rem;
+        position: relative;
+      }
     }
   }
 }
