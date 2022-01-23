@@ -33,12 +33,12 @@ export default function PageFAQs({ location }) {
         <p>Sort of--all guests will be able to stay at the beautiful lake-side mansion Indian Point Manor (see the <a href="/accommodations" target="_blank" rel="noreferrer">accommodations page</a> for more details). Your save-the-date says which room we think will be best for you in the manor.</p>
 
         <h3>What are the costs associated with the weekend?</h3>
-        <p>The accommodation we booked is a private estate with space for up to 40 people. When thinking about what we wanted in a wedding, we kept coming back to the idea of being able to spend quality time with the people we care about most. It may be a little non-traditional, but a micro-wedding felt more us. The estate we booked is in lieu of hotels. Bedrooms vary, so on your save-the-date, we listed the room we are holding for you and the cost associated. This fee is a lump sum that includes food and drink for the weekend.</p>
+        <p>When thinking about what we wanted in a wedding, we kept coming back to the idea of being able to spend quality time with the people we care about most. It may be a little non-traditional, but a micro-wedding felt more us. The private estate we booked is in lieu of hotels and accommodates up to 40 people. Bedrooms vary, so on your save-the-date we listed the room we are holding for you and the cost associated. This fee is a lump sum that includes food and drink for the weekend (excluding some meals like the wedding dinner, which--of course--is on us). Please send us the payment by check, Venmo, Zelle, or Paypal by March 15.</p>
         <p>Eagle River offers many outdoor activities such as ATV/UTV rentals and trails. If enough people are interested, we can arrange to rent ATV/UTVs for Monday (Memorial day). The cost of the rentals vary around $75-150/person. This is completely optional and will only happen if enough people are interested.</p>
         <p>If you have any questions or concerns, please reach out to Brenton or Heidi as soon as possible.</p>
 
         <h3>What kind of food and drinks will be served throughout the weekend?</h3>
-        <p>A variety! Most of the meals will be at the house, so please let us know if you have any allergies or dietary restrictions.</p>
+        <p>A variety! Most of the meals will be prepared at the house, so please let us know if you have any allergies or dietary restrictions.</p>
         <p>The wedding dinner will be a catered sit down meal. We will update the website with the menu options when it gets closer to the date.</p>
 
         <h3>I am not able to attend the full weekend, is that okay?</h3>

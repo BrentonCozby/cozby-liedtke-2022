@@ -13,7 +13,8 @@ export default function PageAccommodations({ location }) {
     >
       <section className="lg:mt-32 prose">
         <h1 className="text-4xl lg:text-5xl mt-8 font-normal">Accommodations</h1>
-        <p>We've rented out <a href="https://www.indianpointmanor.com/" target="_blank" rel="noreferrer">Indian Point Manor</a> from May 27 to May 31, which can accommodate everyone.</p>
+        <p>When thinking about what we wanted in a wedding, we kept coming back to the idea of being able to spend quality time with the people we care about most. It may be a little non-traditional, but a micro-wedding felt more us. The estate we booked is in lieu of hotels. Bedrooms vary, so on your save-the-date, we listed the room we are holding for you and the cost associated.</p>
+        <p>We've reserved <a href="https://www.indianpointmanor.com/" target="_blank" rel="noreferrer">Indian Point Manor</a> from May 27 to May 31, which can accommodate everyone.</p>
       </section>
 
       <section className="prose">
@@ -29,7 +30,7 @@ export default function PageAccommodations({ location }) {
           alt="Indian Point Manor Main House Sunroom"
           className="prose-img:rounded-md"
         />
-        <p>In 2019, the manor was purchased and completely renovated by the new owners. Today, the manor features the main house, a carriage house, and a cottage house with 9 bedrooms, 7 bathrooms, and 2 half baths. Other features include a boat house game room, a tennis/basketball court, a shuffleboard, a bar, a fire pit, and a grand piano.</p>
+        <p>In 2019, the manor was purchased and completely renovated by the new owners. Today, the manor features the main house, a carriage house, and a cottage house with 9 bedrooms, 7 bathrooms, and 2 half baths. Other features include a boat house game room, a tennis/basketball court, a shuffleboard, a bar, a hot tub, a fire pit, and a grand piano.</p>
         <p>The manor is located on the ancestral land of the Chippewa, Potawatomi, Anishinaabe, and Menominee people who have inhabited the region for over 4600 years.</p>
         <StaticImage
           src="../../images/ipm-estate-arial.jpeg"
