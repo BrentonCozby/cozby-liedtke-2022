@@ -16,7 +16,7 @@ export default function PageTravel({ location }) {
       </section>
 
       <section className="prose">
-        <p>Rhinelander-Oneida County airport is the closest airport to Indian Point Manor at about a 45 minute drive. The airport is operated by Delta with service to Minneapolis. Pick up and drop off by someone from Heidi's family can be arranged from Rhinelander-Oneida airport.</p>
+        <p>Rhinelander-Oneida County airport is the closest airport to Indian Point Manor at about a 45 minute drive. The airport is operated by Delta with service to Minneapolis. Pick up and drop off by someone from Heidi's family can be arranged from Rhinelander-Oneida airport. Drop-off on Tuesday evening is also possible for flights leaving from O'Hare because we will have several people driving back to the Chicago area.</p>
         <p>Other airports in the region are listed below. If you plan on flying into one of these airports, we recommend renting a car and carpooling with other guests.</p>
       </section>
 
@@ -29,9 +29,9 @@ export default function PageTravel({ location }) {
         />
       </section>
 
-      <section className="prose text-left">
+      <section className="prose">
         <h3>Airport Driving Durations</h3>
-        <ul>
+        <ul className="text-left max-w-sm m-auto">
           <li>
             <span className="uppercase tracking-widest font-bold">0h:45m</span> - Rhinelander-Oneida County
             <ul>
@@ -46,7 +46,7 @@ export default function PageTravel({ location }) {
             </ul>
           </li>
           <li><span className="uppercase tracking-widest font-bold">2h:44m</span> - Green Bay Austin Straubel</li>
-          <li><span className="uppercase tracking-widest font-bold">3h:40m</span> - Dane County Regional Airport (Madison, WI)</li>
+          <li><span className="uppercase tracking-widest font-bold">3h:40m</span> - Dane County Regional Airport</li>
           <li><span className="uppercase tracking-widest font-bold">4h:19m</span> - Milwaukee Airport</li>
           <li><span className="uppercase tracking-widest font-bold">4h:19m</span> - Minneapolis - St. Paul</li>
           <li><span className="uppercase tracking-widest font-bold">5h:17m</span> - Chicago O'Hare</li>
