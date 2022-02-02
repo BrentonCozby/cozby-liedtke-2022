@@ -65,7 +65,7 @@ export default function PageFAQs({ location }) {
         <p>Given space limitations, we will only be able to accommodate those listed on the invitation and have planned a weekend for only our closest family and friends.</p>
 
         <h3>Will there be someone to do hair and makeup?</h3>
-        <p>Yes! Heidi arranged for a professional stylist to come to the manor on the wedding day. Her prices vary on the service, but are about $55-90 for make up and $50-70 for hair. If you are interested in having your hair and/or makeup done professionally, please confirm with Heidi by February 4th.</p>
+        <p>Yes! Heidi arranged for a professional stylist to come to the manor on the wedding day. Her prices vary on the service, but are about $55-90 for make up and $50-70 for hair. If you are interested in having your hair and/or makeup done professionally, please confirm with Heidi by February 18th.</p>
 
         <h3>Where are you registered?</h3>
         <p>We are not! Celebrating our love with all of you is the perfect gift. We recognize that attending a destination wedding in remote Northern Wisconsin may be a big commitment and are so appreciative of those able to join.</p>
