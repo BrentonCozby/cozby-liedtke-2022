@@ -17,6 +17,9 @@ export default function PageFAQs({ location }) {
       </section>
 
       <section className="prose prose-h3:mt-16">
+        <h3>When do I need to RSVP?</h3>
+        <p>Please RSVP by February 28th by calling, texting, or emailing either Heidi or Brenton.</p>
+
         <h3>What will the weather be like in Northern Wisconsin at the end of May?</h3>
         <p>Unpredictable! Looking back on previous years, weather fluctuates a lot from the high 50s to the mid 70s. Please check out the weather when it gets closer to the date and pack accordingly. The sun sets around 8:40pm by the end of May, so layers are great!</p>
 
@@ -43,9 +46,6 @@ export default function PageFAQs({ location }) {
 
         <h3>I am not able to attend the full weekend, is that okay?</h3>
         <p>We hope that you are able to stay from Friday evening to Tuesday morning, but understand if you have a conflict. If you need to arrive late or leave early, please book your flight into Rhinelander-Oneida airport, otherwise you will need to arrange your own transportation to and from the airport.</p>
-
-        <h3>When do I need to RSVP?</h3>
-        <p>Please RSVP by February 28th by calling, texting, or emailing either Heidi or Brenton.</p>
       </section>
 
       <section className="prose prose-h3:mt-16">
