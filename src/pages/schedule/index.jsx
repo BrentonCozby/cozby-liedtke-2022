@@ -31,7 +31,7 @@ export default function PageSchedule({ location }) {
         </h2>
         <p>Fun &amp; Boating.</p>
         <p>Today is a day to have fun and get to know each other. We'll have several activities available, such as taking the boat out on the lake, hanging out at the boathouse, and a Wedding Olympics.</p>
-        <p>The rehearsal dinner will take place in the evening. Location TBD.</p>
+        <p>The rehearsal dinner will take place in the evening at the <a href="https://www.blackforest3lakes.com/" target="_blank" rel="noreferrer">Black Forrest Pub & Grill</a>.</p>
       </section>
 
       <hr className="w-3/4 mx-auto" />
