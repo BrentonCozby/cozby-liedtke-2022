@@ -42,7 +42,7 @@ export default function PageSchedule({ location }) {
         </h2>
         <p>Wedding Day!</p>
         <p>After breakfast, we'll begin setting up for the ceremony and then break for lunch. After lunch, everyone can get ready for the ceremony.</p>
-        <p>The ceremony will be at 5:00 PM. Photos &amp; cocktails come afterwards until dinner at 7:00 PM. There will be a live acoustic performance during dinner from <a href="https://www.theknot.com/marketplace/maygen-lacey-music-acoustic-duo-minneapolis-mn-1070713" target="_blank" rel="noreferrer">Maygen Lacy</a>.</p>
+        <p>The ceremony will be at 5:00 PM. Photos &amp; cocktails come afterwards until dinner at 7:00 PM. There will be a live acoustic performance during dinner from <a href="https://www.thebash.com/singer-guitarist/chris-koza" target="_blank" rel="noreferrer">Chris Koza</a>.</p>
         <p>After sunset, there will be a small surprise and then we'll go inside to the bartender reception with upbeat music.</p>
       </section>
 
